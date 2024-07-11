@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.10"  # Replace with your Python version (e.g., 3.8)
+
+install:
+  - python -m pip install --upgrade pip
+  # - pip install -r requirements.txt  # Replace with your requirements file name if applicable
+
+script:
+  - python main.py  # Replace with the command to run your script
